@@ -1,7 +1,29 @@
 body {
   background-color: rgb(53, 54, 58);
   margin: 0;
+  color: #ebf8fe;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+#prompt-header {
+  display: none;
+}
+
+.big_text {
+  font-size: 44px;
+}
+
+.link {
   color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bolder;
 }
 
 button {
@@ -9,5 +31,6 @@ button {
   padding: 10px 14px 10px 14px;
   font-weight: bold;
   border-radius: 8px;
-  background-color: rgb(214, 216, 233);
+  background-color: rgb(77, 200, 99);
+  color: #ebf8fe;
 }

@@ -1,0 +1,53 @@
+.horizontal_flex {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapView {
+    padding-top: 20px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.flex-row::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0);
+    width: 0px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.flex-row::-webkit-scrollbar-thumb {
+    background: rgb(117, 185, 130);
+    border-radius: 10px;
+}
+
+.flex-column{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.card:hover{
+    scale: 1.05;
+}

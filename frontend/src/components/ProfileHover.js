@@ -1,15 +1,17 @@
 import React from "react"
 
 import './index.css'
+import { Link } from "react-router-dom"
 
 export const ProfileHover = () => {
   return (
     <div className="dropdown_menu">
-      <button
+      <Link
+        to={"/profile"}
         className="dropdown_menuItem"
       >
         My Profile
-      </button>
+      </Link>
       <button
         className="dropdown_menuItem"
       >
